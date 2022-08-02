@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", "sans serif";
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+main{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 37%;
+    margin-right: 36.2%;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    background-color: rgb(187, 187, 187);
+    padding-top: 25px;
+
+}
+header{
+    text-align: center;
+    color: rgb(13, 13, 13);
+}
+#title{
+    font-size: 30px;
+}
+#description{
+    font-size: 14px;
+    margin-top: 10px;
+}
+#survey-form{
+    width: 100%;
+ margin-top: 40px;
+ padding-left: 20px;
+ padding-right: 20px;
+
+}
+.form-group{
+    margin: 15px;
+    gap: 2;
+    display: flex;
+    flex-direction: column;
+}
+.role{
+    display: flex;
+
+}
+input, select{
+    margin-top: 5px;
+    border: none;
+    height:35px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+label{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1px;
+}
+.select-role, .remark{
+    margin-bottom: 6px;
+}
+select{
+    padding-right: 10px;
+}
+.radio-group{
+    display: flex;
+}
+
+[type="radio"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.checkbox-group{
+    display: flex;
+}
+[type="checkbox"]+label{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+textarea{
+    height: 150px ;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    border: none;
+}
+#submit{
+    padding-top: 1px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(13, 13, 13);
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(37, 37, 37);
+
+}
+
